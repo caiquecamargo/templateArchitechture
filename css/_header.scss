@@ -1,5 +1,4 @@
 .header {
-  width: calc(100vw -10px);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -29,7 +28,6 @@
 }
 
 .footer {
-  width: 100vw;
   padding: 15px;
   display: flex;
   justify-content: center;
