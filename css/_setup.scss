@@ -1,4 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 img {
   display: block;
   width: 100%;
+}
+
+@mixin cell-phone{
+  @media (max-width: 768px){
+      @content;
+  }
 }

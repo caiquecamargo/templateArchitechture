@@ -1,17 +1,42 @@
 .header {
-  width: 100%;
+  width: calc(100vw -10px);
   position: relative;
+  display: flex;
+  flex-direction: column;
   background: url("./img/header.jpg") no-repeat center center;
   background-size: cover;
   padding: 15px;
 
+  &.fixed {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+  }
+
   &__img--title {
-    max-width: 1920px;
+    display: block;
     margin: 0 auto;
   }
 
   &__subtitle {
-    max-width: 842px;
+    max-width: 50%;
     margin-left: 50%;
+    @include cell-phone {
+      max-width: 75%;
+      margin: 0 25%;
+    }
+  }
+}
+
+.footer {
+  width: 100vw;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  background: #000;
+
+  &__text {
+    font-family: $font;
+    color: $font_white;
   }
 }
