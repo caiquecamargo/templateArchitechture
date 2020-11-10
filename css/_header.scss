@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  position: relative;
+  background: url("./img/header.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 15px;
+
+  &__img--title {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  &__subtitle {
+    max-width: 842px;
+    margin-left: 50%;
+  }
+}

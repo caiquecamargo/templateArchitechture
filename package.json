@@ -1,0 +1,27 @@
+{
+  "name": "template-architechture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiquecamargo/templateArchitechture.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiquecamargo/templateArchitechture/issues"
+  },
+  "homepage": "https://github.com/caiquecamargo/templateArchitechture#readme",
+  "devDependencies": {
+    "sass": "^1.29.0",
+    "sass-loader": "^10.0.5",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}

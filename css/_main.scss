@@ -1,0 +1,50 @@
+.main {
+  max-width: $max-width;
+  margin: 100px auto;
+  
+  .section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 750px;
+    margin-bottom: 50px;
+
+    &.one, &.three {
+      background: white;
+    }
+
+    &__text {
+      font-family: $font;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      padding: 50px;
+    }
+
+    &__text.one, &__text.three {
+      color: $font_black;
+    }
+
+    &__text.two, &__text.four {
+      color: $font_white;
+    }
+
+    &__img.one {
+      background: url("./img/image-1.jpg") no-repeat center center;
+      background-size: cover;
+    }
+
+    &__img.two {
+      background: url("./img/image-2.jpg") no-repeat center center;
+      background-size: cover;
+    }
+
+    &__img.three {
+      background: url("./img/image-3.jpg") no-repeat center center;
+      background-size: cover;
+    }
+
+    &__img.four {
+      background: url("./img/image-4.jpg") no-repeat center center;
+      background-size: cover;
+    }
+  }
+}
