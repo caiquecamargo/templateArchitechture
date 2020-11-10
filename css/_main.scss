@@ -51,21 +51,33 @@
     &__img.one {
       background: url("./img/image-1.jpg") no-repeat center center;
       background-size: cover;
+      @include cell-phone {
+        background: url("./img/image-1@0,5x.jpg") no-repeat center center;
+      }
     }
 
     &__img.two {
       background: url("./img/image-2.jpg") no-repeat center center;
       background-size: cover;
+      @include cell-phone {
+        background: url("./img/image-2@0,5x.jpg") no-repeat center center;
+      }
     }
 
     &__img.three {
       background: url("./img/image-3.jpg") no-repeat center center;
       background-size: cover;
+      @include cell-phone {
+        background: url("./img/image-3@0,5x.jpg") no-repeat center center;
+      }
     }
 
     &__img.four {
       background: url("./img/image-4.jpg") no-repeat center center;
       background-size: cover;
+      @include cell-phone {
+        background: url("./img/image-4@0,5x.jpg") no-repeat center center;
+      }
     }
   }
 }
